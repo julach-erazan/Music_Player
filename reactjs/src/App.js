@@ -1,10 +1,12 @@
 import './App.css';
-import MusicPlayer from './MusicPlayer';
+import Music from './Music';
+//import MusicPlayer from './MusicPlayer';
 
 function App() {
   return (
     <div className="App">
-      <MusicPlayer/>
+      {/* <MusicPlayer/> */}
+      <Music/>
     </div>
   );
 }
